@@ -7,14 +7,34 @@
     <title>Document</title>
 </head>
 <body>
+   <!-- This is how to create normal text using simple HTML. -->
+    <div>
+        <h1>
+            Hello World
+        </h1>
+    </div>
+
+    <!-- //This is how to add text using Javascript. -->
     <div id="root"></div>
+    const heading = document.createElement("h1")
+    heading.innerHTML = 'Hello World'
+
+    const root = document.getElementById(root)
+    root.appendChild(heading)
 
    <script>
-        const heading = document.createElement('h1');
-        heading.innerHTML = "hello World by javascript"
 
-        const root = document.getElementById("root");
-        root.appendChild(heading)
+    // This is how text is created with react
+    crossorigin
+       src=" https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"
+    crossorigin
+       src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"
+
+    const heading = React.createElement("h1",{},"Hello World")
+
+    const root = reactDom.createRoot(document.getElementById('root'));
+    root.render(heading)
+       
    </script>
 </body>
 </html>
