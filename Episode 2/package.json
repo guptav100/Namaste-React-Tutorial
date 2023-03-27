@@ -1,0 +1,22 @@
+{
+  "name": "episode-2",
+  "version": "1.0.0",
+  "description": "This is namaste react crash course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guptav100/Namaste-React-Tutorial.git"
+  },
+  "keywords": [
+    "React Tutorial"
+  ],
+  "author": "Vishal gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guptav100/Namaste-React-Tutorial/issues"
+  },
+  "homepage": "https://github.com/guptav100/Namaste-React-Tutorial#readme"
+}
